@@ -1,0 +1,105 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""/private/var/folders/kx/h91wmbsx79qfxy9f94kb8dz40000gp/T/idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""/private/var/folders/kx/h91wmbsx79qfxy9f94kb8dz40000gp/T/idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.2 (Oracle Corporation Java 1.8.0_152)
+[debug]       Load.loadUnit: plugins took 266.222394ms
+[debug]       Load.loadUnit: defsScala took 0.325188ms
+[debug] [Loading] Scanning directory /Users/oskin/.sbt/1.0/plugins
+[debug]         Load.loadUnit: mkEval took 7.366372ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/oskin/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.809502 ms
+[info] loading settings for project global-plugins from idea.sbt ...
+[debug]           Load.resolveProject(global-plugins) took 65.285348ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/oskin/.sbt/1.0/plugins, plugins: List(<none>))) took 120.739328ms
+[debug] [Loading] Done in /Users/oskin/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 237.408168ms
+[debug]       Load.loadUnit: cleanEvalClasses took 8.202673ms
+[debug]     Load.loadUnit(file:/Users/oskin/.sbt/1.0/plugins/, ...) took 521.235709ms
+[debug]   Load.apply: load took 972.83627ms
+[debug]   Load.apply: resolveProjects took 5.369077ms
+[debug]   Load.apply: finalTransforms took 82.740296ms
+[debug]   Load.apply: config.delegates took 9.75152ms
+[debug]   Load.apply: Def.make(settings)... took 588.156759ms
+[debug]   Load.apply: structureIndex took 186.83444ms
+[debug]   Load.apply: mkStreams took 1.945169ms
+[info] loading global plugins from /Users/oskin/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4711.207171ms
+[debug]           Load.loadUnit: plugins took 24.85775ms
+[debug]           Load.loadUnit: defsScala took 0.00442ms
+[debug] [Loading] Scanning directory /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/project
+[debug]             Load.loadUnit: mkEval took 1.255158ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.902762 ms
+[info] loading settings for project typelevel-pet-build from idea.sbt ...
+[debug]               Load.resolveProject(typelevel-pet-build) took 15.486977ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id typelevel-pet-build, base: /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/project, plugins: List(<none>))) took 19.015474ms
+[debug] [Loading] Done in /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/project, returning: (typelevel-pet-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3509.844304ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.711202ms
+[debug]         Load.loadUnit(file:/Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/project/, ...) took 3536.145477ms
+[debug]       Load.apply: load took 3537.272571ms
+[debug]       Load.apply: resolveProjects took 0.116408ms
+[debug]       Load.apply: finalTransforms took 13.200579ms
+[debug]       Load.apply: config.delegates took 0.476647ms
+[debug]       Load.apply: Def.make(settings)... took 109.111941ms
+[debug]       Load.apply: structureIndex took 39.291809ms
+[debug]       Load.apply: mkStreams took 0.003472ms
+[info] loading project definition from /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 12492.615635ms
+[debug]     Load.loadUnit: defsScala took 0.004137ms
+[debug] [Loading] Scanning directory /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet
+[debug]       Load.loadUnit: mkEval took 0.241007ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.862249 ms
+[info] loading settings for project typelevel-pet from build.sbt ...
+[debug]         Load.resolveProject(typelevel-pet) took 31.732715ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id typelevel-pet, base: /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet, plugins: List(<none>))) took 34.607998ms
+[debug] [Loading] Done in /Users/oskin/Desktop/Dev/scala_dev/typelevel-pet, returning: (typelevel-pet)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2872.108423ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.156119ms
+[debug]   Load.loadUnit(file:/Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/, ...) took 15373.475059ms
+[debug] Load.apply: load took 15374.543281ms
+[debug] Load.apply: resolveProjects took 0.082821ms
+[debug] Load.apply: finalTransforms took 26.149638ms
+[debug] Load.apply: config.delegates took 0.218395ms
+[debug] Load.apply: Def.make(settings)... took 78.041534ms
+[debug] Load.apply: structureIndex took 22.357547ms
+[debug] Load.apply: mkStreams took 0.002666ms
+[info] set current project to typelevel-pet (in build file:/Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 56173 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 56173, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to typelevel-pet (in build file:/Users/oskin/Desktop/Dev/scala_dev/typelevel-pet/)
+[debug] > Exec(idea-shell, None, None)
